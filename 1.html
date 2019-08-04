@@ -1,19 +1,30 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-    <title>RED LIST</title>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap&subset=korean" rel="stylesheet">
-  <style>
-    a {color:#FF2800;}
-    h2 {font-size:30px;}
-    body {font-family: 'Noto Sans KR', sans-serif;}
+    <meta charset="utf-8"/>
+    <title>REDLIST</title>
+    <style type="text/css">
+         /* 기본 설정*/
+         a{text-decoration:none; color:#000000;}
+         a:hover{color:#ff0000;}
+
+         /* nav tag */
+         nav ul{padding-top:30px;}                     /*  상단 여백 10px  */
+         nav ul li {
+            display:inline;                         /*  세로나열을 가로나열로 변경 */
+            font:bold 20px Annonce;                     /* 폰트 설정 - 12px의 돋움체 굵은 글씨로 표시 */
+            padding:0 40px;                         /* 각 메뉴 간격 */
+        }
+         nav ul li:first-child{border-left:none;}     /* 메뉴 분류중 제일 왼쪽의 "|"는 삭제
     </style>
 </head>
-
 <body>
-  <h1><a href="1.html">RED LIST</a></h1>
-  <a herf="1.html" style="color:#ff4c88">HOME</a> <a herf="2.html">COMMUNITY</a> <a herf="3.html">ISSUE</a>
-  <script type="text/javascript" src="http://map.vworld.kr/js/vworldMapInit.js.do?version=2.0&apiKey=[E036831D-19DA-3965-8B11-B11921FA92C3]&domain=[https://borario.github.io/1.html/]"></script>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">COMMUNITY</a></li>
+            <li><a href="#">NEWS</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
