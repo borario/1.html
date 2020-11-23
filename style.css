@@ -1,0 +1,9 @@
+@CHARSET "UTF-8"
+ /************* Common *************/
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(Poppins-Regular) format('truetype');
+ }
+body {
+  font-family: Poppins-Regular;
+}
