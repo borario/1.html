@@ -4,17 +4,17 @@
 		<meta charset="utf-8">
 		<link href="style.css" rel="stylescheet" type="text/css"/>
 		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-			body {font-family: "Poppins";
-						font-size:100px;}
-						body {background-color:#FFFFEF;}
-						body {text-align:center;}
-						a {text-decoration:none;}
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+			body {background-color:#FFFFEF;text-align:center;}
+			h2 {font-family: "Poppins";font-size:16px; color: #9BD170; position:fixed; top:20px; left:0;right:0; word-spacing: 10px}
+			.timer {font-family: "Poppins";font-size:100px;text-decoration:none; position:fixed; left:0; right:0; top:35%;}
+			a {position:fixed; left:0; right:0; bottom:50px;}
 		</style>
  		<link rel="shortcut icon" href="leaf_favicon.ico">
  		<link rel="icon" href="leaf_favicon.ico">
 	</head>
 	<body>
+		<h2>G R E E N</h2>
 		<script language="JavaScript">
 			var SetTime = 90;  // 최초 설정 시간(기본 : 초)
 			function msg_time() { // 1초씩 카운트
@@ -30,6 +30,6 @@
 				window.onload = function TimerStart(){ tid=setInterval('msg_time()',1000) };
 		</script>
  		<div id="ViewTimer"></div>
-		<Input type="button" value="hi" onclick="alert('hi')">
+		<a href="1.html"><img src="home.png"> </a>
 	</body>
 </html>
